@@ -59,7 +59,7 @@ English：[`README_EN.md`](./README_EN.md)
 
 1. 首先Fork本仓库，命名为**NodeWarden**
 2. 点击下面的一键部署按钮，修改项目名称为**NodeWarden2**，修改**JWT_SECRET**成32为随机字符串
-3. [![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/shuaiplus/nodewarden)
+3. [![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/waveCodeSite/nodewarden)
 4. 部署完成后，同一页面打开workers设置，将**Git存储库**断开连接
 5. 同一位置，**Git存储库**链接至第一步Fork的仓库
 
@@ -71,7 +71,7 @@ English：[`README_EN.md`](./README_EN.md)
 
 ```powershell
 # 先把仓库拉到本地
-git clone https://github.com/shuaiplus/NodeWarden.git
+git clone https://github.com/waveCodeSite/NodeWarden.git
 cd NodeWarden
 
 # 安装依赖
@@ -88,7 +88,7 @@ npx wrangler r2 bucket create nodewarden-attachments
 npm run deploy 
 
 # 需更新时重新拉取仓库，重新部署即可，无需创建云资源
-git clone https://github.com/shuaiplus/NodeWarden.git
+git clone https://github.com/waveCodeSite/NodeWarden.git
 cd NodeWarden
 npm run deploy 
 ```
